@@ -1,14 +1,6 @@
-<html>
-    <head>
-        <title>
-            This is a test page
-        </title>
-    </head>
-    <body>
-<?php
 <?php
 
-use Symfony\Component\HttpFoundation\Request;
+include Symfony\Component\HttpFoundation\Request;
 
 // If you don't want to setup permissions the proper way, just uncomment the following PHP line
 // read http://symfony.com/doc/current/book/installation.html#configuration-and-setup for more information
@@ -33,7 +25,3 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
-
-?>
-    </body>
-</html>

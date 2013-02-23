@@ -18,6 +18,6 @@
         <div id="title">
             
         </div>
-        <button type="button" onclick="changeTitle()">Click</button> 
+        <button type="button" onclick="changeTitle">Click</button> 
     </body>
 </html>

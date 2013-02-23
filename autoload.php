@@ -20,6 +20,7 @@
         <div id="title">
             
         </div>
+        <a href="/jsmulan-sandbox/content.php">content</a>
         <button onclick="changeTitle">Click</button> 
     </body>
 </html>

@@ -1,7 +1,14 @@
 <?php
     $input = $_GET['characters'];
     $input = preg_replace( '@\s@', '', $input );
-var_dump( $input );
+    $input_array = str_split( $input );
+    $results = '';
+    foreach( $input_array as $key => $char ){
+        if( $key%2 != 0 ){
+            $results.= $char;
+        }
+    }
+var_dump( $results );
 ?>
 <html>
     <head>

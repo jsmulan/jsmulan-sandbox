@@ -7,6 +7,10 @@
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
 
-index:
+_welcome:
     pattern:   /
-    defaults:  { _controller: Welcome }
+    defaults:  { _controller: AcmeDemoBundle:Main:homepage }
+
+_welcome2:
+    pattern:   /jsmulan-sandbox/
+    defaults:  { _controller: AcmeDemoBundle:Main:homepage }

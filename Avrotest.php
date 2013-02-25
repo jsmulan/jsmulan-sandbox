@@ -19,7 +19,7 @@
         </title>
     </head>
     <body>
-        <?php if( FALSE == empty( $results ) { ?>
+        <?php if( FALSE == empty( $results ) ){ ?>
         <h2><?php echo $results; ?></h2>
         <?php } ?>
         <form action="Avrotest.php" method="GET">

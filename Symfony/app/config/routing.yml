@@ -9,4 +9,4 @@
 
 _welcome:
     pattern:   /
-    defaults:  { _controller: AcmeDemoBundle:Welcome:homepage }
+    defaults:  { _controller: AcmeDemoBundle:Welcome:index }

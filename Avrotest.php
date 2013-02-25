@@ -1,5 +1,5 @@
 <?php
-    $input = $_Get['characters'];
+    $input = $_GET['characters'];
     $input = preg_replace( '@\s@', '', $input );
 var_dump( $input );
 ?>
